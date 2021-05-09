@@ -7,5 +7,3 @@ edition = "2018"
 
 [dependencies]
 bit_field = "0.10.1"
-embedded-hal = "0.2.5"
-nb = "1.0.0"
