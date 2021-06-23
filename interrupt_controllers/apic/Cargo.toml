@@ -1,0 +1,12 @@
+[package]
+name = "apic"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+x86_64 = { path = "../../../arch/x86_64" }
+# TODO: Replace bit operations with bitte
+bit_field = "0.10.1"
+bitflags = "1.2.1"
